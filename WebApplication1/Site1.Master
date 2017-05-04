@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 603px;
+            height: 162px;
+            text-align: center;
+        }
+        .style2
+        {
+            text-align: center;
+            height: 16px;
+        }
+        .style3
+        {
+            width: 61%;
+            height: 21px;
+        }
+        .style4
+        {
+            height: 36px;
+        }
+        .style5
+        {
+            width: 100%;
+            height: 54px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="text-align: center">
+        <br />
+        <table bgcolor="Maroon" class="style5">
+            <tr>
+                <td>
+                    <br />
+        <img class="style1" src="PremierBankLogo.PNG" /><br />
+                </td>
+            </tr>
+        </table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <table align="center" class="style3">
+            <tr>
+                <td class="style4">
+                    <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#990000" 
+                        style="text-decoration: underline" NavigateUrl="~/MainPage.aspx">Main Page </asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" 
+                        NavigateUrl="~/CreateBankAccount.aspx">Create Account Bank</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" NavigateUrl="~/RegisterUser.aspx">Register Account</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" NavigateUrl="~/DepositMoney2.aspx">Deposit Money</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" NavigateUrl="~/WithdrawMoney2.aspx">Withdraw Money</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink6" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" NavigateUrl="~/Viewdetailinfo.aspx">View Profile</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" NavigateUrl="~/TransferMoney.aspx">Transfer</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink8" runat="server" ForeColor="Maroon" 
+                        style="text-decoration: underline" NavigateUrl="~/PurchaseOnline.aspx">Purchase Online</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+<div class="style2">
+    <table class="style5">
+        <tr>
+            <td bgcolor="#CC9900">
+                copyright 2017</td>
+        </tr>
+    </table>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>
