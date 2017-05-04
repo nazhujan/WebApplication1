@@ -85,6 +85,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="WebForm3.aspx" />
     <Content Include="WithdrawMoney.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="Viewdetailinfo.aspx.designer.cs">
       <DependentUpon>Viewdetailinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
     <Compile Include="WithdrawMoney.aspx.cs">
       <DependentUpon>WithdrawMoney.aspx</DependentUpon>
